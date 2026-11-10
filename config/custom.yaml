@@ -17,6 +17,8 @@ llm:
   api_mode: chat_completion
   generation_kwargs:
     model: gpt-4o-mini
+  language: Chinese # Preferred language for the TL;DR
+
 
 source:
   arxiv:
