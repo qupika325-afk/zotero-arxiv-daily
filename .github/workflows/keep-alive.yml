@@ -5,7 +5,7 @@ on:
   schedule:
     # Run daily at 03:17 UTC to keep the repository active.
     # Note: '0 0 */30 * *' only fires on day-of-month 1 and 31, not "every 30 days".
-    - cron: '17 3 * * *'
+    - cron: '18 3 * * *'
 
 jobs:
   keep-alive:
